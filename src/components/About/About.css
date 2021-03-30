@@ -1,0 +1,49 @@
+.About {
+  background: url("../../media/about.jpg");
+  height: 90vh;
+  filter: grayscale(100%);
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: underline;
+  line-height: 5;
+  position: relative;
+  overflow: hidden;
+}
+
+.airplane {
+  width: 100px;
+  position: absolute;
+  top: 30px;
+  right: -100px;
+  animation: flyingPlane1 20s infinite linear;
+  animation-delay: 10s;
+}
+
+.airplane2 {
+  left: -100px;
+  transform: scaleX(-1);
+  top: 100px;
+  animation: flyingPlane2 40s infinite;
+}
+
+@keyframes flyingPlane1 {
+  0% {
+    right: -100px;
+  }
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes flyingPlane2 {
+  0% {
+    left: -100px;
+  }
+  100% {
+    left: 100%;
+  }
+}

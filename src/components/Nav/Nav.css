@@ -1,0 +1,25 @@
+nav {
+  display: flex;
+  width: 90vw;
+  height: 10vh;
+  margin: auto;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #131c27;
+  color: white;
+}
+
+.nav__logo {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex: 5;
+  margin-left: 30px;
+}
+
+.nav__list {
+  display: flex;
+  list-style-type: none;
+  flex: 4;
+  justify-content: space-evenly;
+}
