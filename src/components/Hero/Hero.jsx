@@ -10,7 +10,9 @@ function Hero() {
           Start your journey with us. Got a place in mind? we'll get you there.
         </h2>
       </div>
-      <button className='hero__button'>Book Now</button>
+      <a href='#contact'>
+        <button className='hero__button'>Book Now</button>
+      </a>
     </div>
   );
 }
