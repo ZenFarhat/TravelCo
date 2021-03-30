@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;400;700&display=swap");
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+  height: 10vh;
+  background-color: #131c27;
+  color: white;
+}
+
+.footer__logo {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+}
+
+.footer__icons {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
