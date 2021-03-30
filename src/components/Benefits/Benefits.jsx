@@ -12,21 +12,21 @@ function Benefits() {
         <div className='benefit__card'>
           <h1 className='benefit__heading'>Hotels</h1>
           <div className='benefit__desc'>
-            <HotelIcon />
+            <HotelIcon fontSize='large' />
             <p>We'll find you the best, cheapest & most luxorious.</p>
           </div>
         </div>
         <div className='benefit__card'>
           <h1 className='benefit__heading'>Flights</h1>
           <div className='benefit__desc'>
-            <FlightTakeoffIcon />
+            <FlightTakeoffIcon fontSize='large' />
             <p>We'll find you the best, cheapest & most luxorious.</p>
           </div>
         </div>
         <div className='benefit__card'>
           <h1 className='benefit__heading'>Tourism</h1>
           <div className='benefit__desc'>
-            <LocationOnIcon />
+            <LocationOnIcon fontSize='large' />
             <p>We'll find you the best, cheapest & most luxorious.</p>
           </div>
         </div>
