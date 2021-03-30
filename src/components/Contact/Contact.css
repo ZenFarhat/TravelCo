@@ -61,3 +61,32 @@ textarea:focus {
 .contact__button:active {
   transform: scale(0.98);
 }
+
+@media only screen and (max-width: 769px) {
+  .Contact {
+    background-image: url("../../media/contact.jpg");
+    width: 100vw;
+  }
+  form {
+    width: 90%;
+  }
+
+  form input,
+  button,
+  textarea {
+    width: 275px;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+
+  form input,
+  button {
+    height: 50px;
+    border: none;
+  }
+
+  form input,
+  textarea {
+    padding: 0 1rem;
+  }
+}

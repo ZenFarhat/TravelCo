@@ -8,9 +8,9 @@ function Nav() {
         <h1>Travel Co.</h1>
       </div>
       <ul className='nav__list'>
-        <li>About</li>
-        <li>Benefits</li>
-        <li>Contact</li>
+        <a href='#about'>About</a>
+        <a href='#benefits'>Benefits</a>
+        <a href='#contact'>Contact</a>
       </ul>
     </nav>
   );

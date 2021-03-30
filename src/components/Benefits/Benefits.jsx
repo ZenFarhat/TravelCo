@@ -6,7 +6,7 @@ import LocationOnIcon from "@material-ui/icons/LocationOn";
 
 function Benefits() {
   return (
-    <div className='Benefits'>
+    <div className='Benefits' id='benefits'>
       <h1 className='benefits__header'>What we'll bring you</h1>
       <div className='benefits__cards'>
         <div className='benefit__card'>

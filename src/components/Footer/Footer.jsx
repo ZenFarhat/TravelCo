@@ -9,9 +9,16 @@ function Footer() {
     <footer>
       <div className='footer__logo'>Travel Co.</div>
       <div className='footer__icons'>
-        <FacebookIcon fontSize='large' />
-        <InstagramIcon fontSize='large' />
-        <TwitterIcon fontSize='large' />
+        <a href='#'>
+          <FacebookIcon fontSize='large' />
+        </a>
+        <a href='#'>
+          <InstagramIcon fontSize='large' />
+        </a>
+        <a href='#'>
+          {" "}
+          <TwitterIcon fontSize='large' />
+        </a>
       </div>
     </footer>
   );

@@ -25,3 +25,13 @@ footer {
   flex: 1;
   justify-content: space-evenly;
 }
+
+.footer__icons a {
+  color: white;
+}
+
+@media only screen and (max-width: 769px) {
+  footer {
+    width: 100vw;
+  }
+}

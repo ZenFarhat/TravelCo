@@ -4,7 +4,7 @@ import airplaneImg from "../../media/airplane.png";
 
 function About() {
   return (
-    <div className='About'>
+    <div className='About' id='about'>
       <img src={airplaneImg} alt='' className='airplane' />
       <img src={airplaneImg} alt='' className='airplane airplane2' />
       <div className='about__text'>

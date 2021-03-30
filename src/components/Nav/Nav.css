@@ -21,6 +21,7 @@ nav {
 .nav__logo h1 {
   font-family: "Lobster", cursive;
   letter-spacing: 2px;
+  font-size: 2rem;
 }
 
 .nav__list {
@@ -28,4 +29,31 @@ nav {
   list-style-type: none;
   flex: 4;
   justify-content: space-evenly;
+}
+
+.nav__list a {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 769px) {
+  nav {
+    width: 100vw;
+    margin: 0;
+    justify-content: space-evenly;
+  }
+
+  .nav__logo {
+    align-content: center;
+    flex: 1;
+    margin-left: 5px;
+  }
+
+  .nav__logo h1 {
+    font-size: 1rem;
+  }
+
+  .nav__list {
+    flex: 3;
+  }
 }
