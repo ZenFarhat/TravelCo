@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;400;700&display=swap");
 nav {
   display: flex;
   width: 90vw;
@@ -15,6 +16,11 @@ nav {
   align-content: center;
   flex: 5;
   margin-left: 30px;
+}
+
+.nav__logo h1 {
+  font-family: "Lobster", cursive;
+  letter-spacing: 2px;
 }
 
 .nav__list {
